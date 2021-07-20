@@ -1,16 +1,9 @@
 ## How to Configure a Separate Subnet on a Router
 
-This webpage will outline how to configure a separate subnet on your router.
-The end goal will be to create a separate subnet to connect the computer to, separate from the other devices on the main network address.
-This is illustrated in the diagram below.
+This tutorial was designed with the intent of educating absolute beginners on internet/network connectivity with no previous background in IT. Hopefully by the end of this exercise you will have a better understanding of how your personal device talks to other devices using the internet.
 
+To understand network connectivity better, we will be configuring a separate subnet on a router to connect your computer to, separate from the other devices on the main network address. The goal of this exercise is illustrated in the diagram below.
+
+The router will receive incoming signals from the WAN port (‘Public’ internet), assign itself a main network IP address using DHCP, and then reroute the connection to your laptop under a different subnet, separate from the main network.
 ![Router Set-Up Goal](Router_set-up_goal.PNG)
-
-### SMC Router - Background Information
-
-The SMC Barricade 7004vbr has one WAN (Wide Area Network) port and four LAN (Local Area Network) ports.
-
-The idea will be to allow the router to assign its own network address automatically based on the incoming internet (using DHCP), but then define a separate subnet under this main network address.
-
-
 
