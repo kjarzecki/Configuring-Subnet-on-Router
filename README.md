@@ -4,8 +4,7 @@ This webpage will outline how to configure a separate subnet on your router.
 The end goal will be to create a separate subnet to connect the computer to, separate from the other devices on the main network address.
 This is illustrated in the diagram below.
 
-![image](https://drive.google.com/file/d/1j-aDdoJFeEs8Gi5x3jcXn1nxddh2irrd/view?usp=sharing)
-
+![Router Set-Up Goal](Router_set-up_goal.PNG)
 
 ### SMC Router - Background Information
 
